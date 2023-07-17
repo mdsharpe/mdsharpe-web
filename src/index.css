@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1c1c;
+        color: #d2d0ce;
+    }
+
+    a:not(:visited):not(:active) {
+        color: #2ba3eb;
+    }
+
+    a:visited {
+        color: #ea2cbe;
+    }
+
+    a:active {
+        color: #e82c2c;
+    }
+}
+
+main {
+    margin: 1rem;
+    font-family: "Cascadia Mono", "Consolas", "Courier New", Courier, monospace;
+}
