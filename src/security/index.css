@@ -1,0 +1,8 @@
+.security-tips-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.security-tips-list .security-tip-container {
+    
+}
