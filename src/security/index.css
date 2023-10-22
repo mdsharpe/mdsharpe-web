@@ -1,8 +1,4 @@
-.security-tips-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.security-tips-list .security-tip-container {
-    
+.security-tips-list li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
