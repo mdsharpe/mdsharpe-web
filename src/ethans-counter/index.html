@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="CCBot" content="nofollow" />
+    <meta name="robots" content="noai, noimageai" />
+    <link rel="stylesheet" href="../site.css" />
+    <style>
+        #num {
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+    </nav>
+    <main>
+        <h1>Ethan's counter</h1>
+        <p id="num"></p>
+    </main>
+    <script>
+        const start = new Date(2025, 10, 8, 10, 0, 0);
+        const el = document.getElementById("num");
+
+        function update() {
+            const elapsed = new Date() - start;
+            const num = Math.floor(elapsed / 400);
+            el.innerText = num.toString();
+        }
+
+        window.setInterval(() => {
+            update();
+        }, 400)
+        update();
+    </script>
+</body>
+
+</html>
