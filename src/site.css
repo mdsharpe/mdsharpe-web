@@ -5,6 +5,18 @@ body {
     font-family: "Cascadia Mono", "Consolas", "Courier New", Courier, monospace;
 }
 
+a:not(:visited):not(:active) {
+    color: #0a6dcc;
+}
+
+a:visited {
+    color: #8a1ab5;
+}
+
+a:active {
+    color: #cc1a1a;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1c1c1c;
