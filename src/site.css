@@ -5,12 +5,18 @@
  * ------------------------------------------------------------------ */
 
 :root {
-    --bg: #f1f1ee;
-    --fg: #14130f;
-    --muted: #14130f80;
-    --line: #14130f1f;
-    --accent: #ff3b00;
-    --link: #14130f;
+    color-scheme: light dark;
+    --bg: light-dark(#f1f1ee, #0d0d0c);
+    --fg: light-dark(#14130f, #e7e5df);
+    --accent: light-dark(#ff3b00, #ff4d1a);
+    --link: var(--fg);
+    --muted: color-mix(in srgb, var(--fg) 50%, transparent);
+    --line: color-mix(in srgb, var(--fg) 12%, transparent);
+}
+
+/* Crossfade between local pages — no JS. */
+@view-transition {
+    navigation: auto;
 }
 
 * {
@@ -58,6 +64,7 @@ nav::before {
     text-transform: uppercase;
     letter-spacing: 0.32em;
     color: var(--fg);
+    text-wrap: balance;
 }
 
 .meta span {
@@ -73,6 +80,8 @@ h1 {
     text-transform: uppercase;
     padding-bottom: 0.5em;
     border-bottom: 2px solid var(--fg);
+    /* Morphs in place during cross-page view transitions. */
+    view-transition-name: title;
 }
 
 /* Numbered section labels: "01 / PROFILES" */
@@ -128,11 +137,16 @@ a {
     transition: color 0.08s, background-color 0.08s, border-color 0.08s;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
     color: var(--bg);
     background-color: var(--accent);
     border-color: var(--accent);
     box-shadow: 0.18em 0 0 var(--accent), -0.18em 0 0 var(--accent);
+}
+
+a:focus-visible {
+    outline: none;
 }
 
 a:active {
@@ -141,13 +155,42 @@ a:active {
     box-shadow: none;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg: #0d0d0c;
-        --fg: #e7e5df;
-        --muted: #e7e5df80;
-        --line: #e7e5df24;
-        --accent: #ff4d1a;
-        --link: #e7e5df;
+/* HUD boot-up: stagger nav contents in on load. */
+@keyframes boot-in {
+    from {
+        opacity: 0;
+        transform: translateY(0.6rem);
+    }
+}
+
+nav > *,
+main > *,
+li {
+    animation: boot-in 0.5s both;
+}
+
+.meta { animation-delay: 0s; }
+h1    { animation-delay: 0.06s; }
+h2    { animation-delay: 0.12s; }
+li:nth-child(1) { animation-delay: 0.16s; }
+li:nth-child(2) { animation-delay: 0.20s; }
+li:nth-child(3) { animation-delay: 0.24s; }
+li:nth-child(4) { animation-delay: 0.28s; }
+li:nth-child(5) { animation-delay: 0.32s; }
+li:nth-child(6) { animation-delay: 0.36s; }
+li:nth-child(7) { animation-delay: 0.40s; }
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    ::view-transition-group(*),
+    ::view-transition-old(*),
+    ::view-transition-new(*) {
+        animation: none !important;
     }
 }
