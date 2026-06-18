@@ -1,69 +1,153 @@
+/* ------------------------------------------------------------------ *
+ *  A simple homage to wipEout                                        *
+ *  Swiss sans, near-monochrome, one hot accent, numeric indexing,    *
+ *  letter-spaced technical labels, a single registration mark.       *
+ * ------------------------------------------------------------------ */
+
+:root {
+    --bg: #f1f1ee;
+    --fg: #14130f;
+    --muted: #14130f80;
+    --line: #14130f1f;
+    --accent: #ff3b00;
+    --link: #14130f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     min-height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f5f5f5;
-    color: #111111;
-    font-family: "Cascadia Mono", "Consolas", "Courier New", Courier, monospace;
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 nav, main {
-    width: min(640px, 100% - 3rem);
+    width: min(680px, 100% - 3rem);
     margin: 0 auto;
+    position: relative;
 }
 
 nav {
-    padding: 2rem 0;
+    padding: 2.5rem 0;
+}
+
+/* Single registration mark, top-right of the column */
+nav::before {
+    content: "+";
+    position: absolute;
+    top: 1.4rem;
+    right: -0.2rem;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: var(--accent);
+}
+
+/* Cryptic technical caption above the name. */
+.meta {
+    margin: 0 0 1.2rem;
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.32em;
+    color: var(--fg);
+}
+
+.meta span {
+    color: var(--accent);
 }
 
 h1 {
-    font-size: clamp(2rem, 8vw, 3.5rem);
+    font-size: clamp(2.4rem, 11vw, 4.5rem);
+    font-weight: 700;
     margin: 0;
-    line-height: 1.1;
-    padding-bottom: 0.6em;
-    border-bottom: 1px solid currentColor;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid var(--fg);
+}
+
+/* Numbered section labels: "01 / PROFILES" */
+nav {
+    counter-reset: section;
 }
 
 h2 {
-    font-size: 0.7rem;
+    counter-increment: section;
+    font-size: 0.62rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
-    margin: 2rem 0 0.5rem;
-    opacity: 0.45;
+    letter-spacing: 0.32em;
+    margin: 2.4rem 0 0.9rem;
+    color: var(--muted);
+}
+
+h2::before {
+    content: counter(section, decimal-leading-zero) " / ";
+    color: var(--accent);
 }
 
 ul {
     list-style: none;
     padding: 0;
-    margin: 1.25rem 0 0;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
-    gap: 0.35rem 1.5rem;
+    gap: 0.15rem 1.5rem;
+    counter-reset: item;
 }
 
+li {
+    counter-increment: item;
+}
+
+/* Zero-padded numeric marker per item. */
 li::before {
-    content: '> ';
-    opacity: 0.35;
+    content: counter(item, decimal-leading-zero);
+    margin-right: 0.7em;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    vertical-align: 0.12em;
 }
 
 a {
-    color: #0a6dcc;
+    color: var(--link);
     text-decoration: none;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 0.1em;
+    transition: color 0.08s, background-color 0.08s, border-color 0.08s;
 }
 
-a:visited { color: #8a1ab5; }
-a:hover   { text-decoration: underline; }
-a:active  { color: #cc1a1a; }
+a:hover {
+    color: var(--bg);
+    background-color: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0.18em 0 0 var(--accent), -0.18em 0 0 var(--accent);
+}
+
+a:active {
+    color: var(--accent);
+    background-color: transparent;
+    box-shadow: none;
+}
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #141414;
-        color: #d2d0ce;
+    :root {
+        --bg: #0d0d0c;
+        --fg: #e7e5df;
+        --muted: #e7e5df80;
+        --line: #e7e5df24;
+        --accent: #ff4d1a;
+        --link: #e7e5df;
     }
-
-    a         { color: #2ba3eb; }
-    a:visited { color: #ea2cbe; }
-    a:active  { color: #e82c2c; }
 }
