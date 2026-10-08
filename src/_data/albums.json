@@ -1,0 +1,13 @@
+[
+    {
+        "artist": "Example Artist",
+        "title": "Example Album",
+        "year": 1999,
+        "link": "https://bandcamp.com/"
+    },
+    {
+        "artist": "Another Artist",
+        "title": "Album Without A Link",
+        "year": 2004
+    }
+]

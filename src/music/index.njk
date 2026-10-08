@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Music — Matt Sharpe</title>
+    <meta name="description" content="Matt Sharpe's all-time favorite albums." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../site.css" />
+    <style>
+        .albums {
+            grid-template-columns: 1fr;
+            gap: 0;
+        }
+
+        .albums li {
+            display: flex;
+            align-items: baseline;
+            gap: 0.7em;
+            padding: 0.55rem 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .albums li::before {
+            margin-right: 0;
+        }
+
+        .albums .artist {
+            color: var(--muted);
+        }
+
+        .albums .year {
+            margin-left: auto;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <p class="meta">All-time favorites <span>// {{ albums.length }} albums</span></p>
+        <h1>Music</h1>
+        <h2>Albums</h2>
+        <ul class="albums">
+            {%- for album in albums %}
+            <li>
+                {%- if album.link %}
+                <a href="{{ album.link }}" target="_blank" rel="noopener">{{ album.title }}</a>
+                {%- else %}
+                <span>{{ album.title }}</span>
+                {%- endif %}
+                <span class="artist">{{ album.artist }}</span>
+                {%- if album.year %}
+                <span class="year">{{ album.year }}</span>
+                {%- endif %}
+            </li>
+            {%- endfor %}
+        </ul>
+        <h2>Index</h2>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
