@@ -2,6 +2,8 @@ import { readFile } from "node:fs/promises";
 
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/**/*.css");
+    eleventyConfig.addPassthroughCopy("src/fonts/*.ttf");
+    eleventyConfig.addPassthroughCopy("src/favicon.svg");
 
     // Every album must have a Discogs link; Bandcamp is optional.
     eleventyConfig.on("eleventy.before", async () => {

@@ -9,6 +9,7 @@
     <!-- Site has its own dark theme; ask Dark Reader not to apply one. -->
     <meta name="darkreader-lock" />
     <link rel="stylesheet" href="../site.css" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <style>
         .decades {
             margin-top: 2.4rem;
@@ -16,8 +17,9 @@
 
         .decades h3 {
             margin: 1.6rem 0 0.3rem;
+            font-family: var(--display);
             font-size: 0.62rem;
-            font-weight: 700;
+            font-weight: 400;
             letter-spacing: 0.32em;
             color: var(--accent);
         }
@@ -50,6 +52,10 @@
             padding: 0;
             border: 0;
             background-color: var(--line);
+        }
+
+        .albums .cover::after {
+            content: none;
         }
 
         .albums .cover:hover,
@@ -90,8 +96,9 @@
 
         .credit {
             margin: 0.9rem 0 0;
+            font-family: var(--display);
             font-size: 0.62rem;
-            font-weight: 700;
+            font-weight: 400;
             letter-spacing: 0.12em;
             text-transform: uppercase;
             color: var(--muted);
