@@ -1,13 +1,733 @@
 [
     {
-        "artist": "Example Artist",
-        "title": "Example Album",
-        "year": 1999,
-        "link": "https://bandcamp.com/"
+        "artist": "Adiemus",
+        "title": "Songs Of Sanctuary",
+        "year": 1995,
+        "discogs": "https://www.discogs.com/master/10543-Adiemus-Songs-Of-Sanctuary",
+        "cover": "https://i.discogs.com/U81c58KFIVRo_PoCCqZXP-dcH9iuz0Xe_8hmLHVyZps/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MzUw/LTEyMDIzMTE5MDQu/anBlZw.jpeg"
     },
     {
-        "artist": "Another Artist",
-        "title": "Album Without A Link",
-        "year": 2004
+        "artist": "Alex M.O.R.P.H. B2B Woody van Eyden",
+        "title": "HeavensGate Volume 1",
+        "year": 2010,
+        "discogs": "https://www.discogs.com/master/302720-Alex-MORPH-B2B-Woody-van-Eyden-HeavensGate-Volume-1",
+        "cover": "https://i.discogs.com/zkyGsKLjxYlLfmM9JnX81Iy3Ue2RD7jatBJ_Pf3kz4k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NjA0/NDEtMTI5NTQzMjU2/Ni5qcGVn.jpeg"
+    },
+    {
+        "artist": "Altus",
+        "title": "Anthropoaliena",
+        "year": 2022,
+        "discogs": "https://www.discogs.com/release/24347555-Altus-Anthropoaliena",
+        "bandcamp": "https://altusmusic.bandcamp.com/album/anthropoaliena",
+        "cover": "https://i.discogs.com/Jpbik3SoMPOD_cxYpHWlKZJW7kg4OQqlYJHyTavktQI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzQ3/NTU1LTE2NjE3NjE4/NTktMjc1MS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Amethystium",
+        "title": "Aphelion",
+        "year": 2003,
+        "discogs": "https://www.discogs.com/master/283786-Amethystium-Aphelion",
+        "bandcamp": "https://bandcamp.amethystium.com/album/aphelion",
+        "cover": "https://i.discogs.com/6C9KmCiSTabIlCy7pLsHf53cQMlOSYbceg3DI6xl4tE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNjg2/MC0xNjgxMjgxOTIy/LTU0ODIuanBlZw.jpeg"
+    },
+    {
+        "artist": "Asura",
+        "title": "Radio Universe",
+        "year": 2014,
+        "discogs": "https://www.discogs.com/master/748827-Asura-Radio-Universe",
+        "bandcamp": "https://ultimae.bandcamp.com/album/radio-universe",
+        "cover": "https://i.discogs.com/KOI30jTl0IFRuRIUmZ1jPp9x0dvF2vg8IpRmcPUxMFQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyMjIw/OTItMTQxNTM5ODM3/Mi01MDI2LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Stevie Be Zet",
+        "title": "Archaic Modulation",
+        "year": 1993,
+        "discogs": "https://www.discogs.com/master/47269-Stevie-Be-Zet-Archaic-Modulation",
+        "cover": "https://i.discogs.com/Qg6cEejS8qGJ9WWngHlteG86ecIFruULR_RPdv4HAn0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTMx/NzAtMTE5NTg5MjIz/Mi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Balligomingo",
+        "title": "Beneath The Surface",
+        "year": 2002,
+        "discogs": "https://www.discogs.com/master/82158-Balligomingo-Beneath-The-Surface",
+        "cover": "https://i.discogs.com/JurahfXTmZkqKgtKoAzp2QcmQlhfuZrEzKky95yC75g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTk4/NTktMTQ1OTI2MDM2/MC0zOTI4LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Andrew Bayer",
+        "title": "In My Last Life",
+        "year": 2018,
+        "discogs": "https://www.discogs.com/master/1412276-Andrew-Bayer-In-My-Last-Life",
+        "cover": "https://i.discogs.com/O_mTg8HiGXl3Lfn-YYVvjC7y82tBppe3c4oOTIP4Puc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDI5/MTEzLTE1NjUzMzI2/NjctNDM0My5qcGVn.jpeg"
+    },
+    {
+        "artist": "Carbon Based Lifeforms",
+        "title": "Interloper",
+        "year": 2010,
+        "discogs": "https://www.discogs.com/master/807893-Carbon-Based-Lifeforms-Interloper",
+        "bandcamp": "https://carbonbasedlifeforms.bandcamp.com/album/interloper",
+        "cover": "https://i.discogs.com/BZRQ5GaKZOH1B-9qVz4InjMuCL_7FZthe5LjTOJ-2wM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjIz/MzctMTI3MzA1MjY2/Ni5qcGVn.jpeg"
+    },
+    {
+        "artist": "Conjure One",
+        "title": "Conjure One",
+        "year": 2002,
+        "discogs": "https://www.discogs.com/master/58644-Conjure-One-Conjure-One",
+        "cover": "https://i.discogs.com/AlOD4W8003mB_a4q_sjjAkBxjBNDgaZatGmybizC-z8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0OTkz/OS0xMzcyNjQzMzYz/LTMxNTQuanBlZw.jpeg"
+    },
+    {
+        "artist": "Max Corbacho",
+        "title": "Ars Lucis",
+        "year": 2009,
+        "discogs": "https://www.discogs.com/master/1374972-Max-Corbacho-Ars-Lucis",
+        "bandcamp": "https://maxcorbacho.bandcamp.com/album/ars-lucis",
+        "cover": "https://i.discogs.com/fiqoU2Ikppz7K1hBc33MtTs5ATZLAMD17j5oL9aH_uk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5OTQ4/NTYtMTI1ODM4NTkz/NS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Delerium",
+        "title": "Semantic Spaces",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/52026-Delerium-Semantic-Spaces",
+        "cover": "https://i.discogs.com/NNejmz5UdVHjebY70tN5Ud3yOnQ4Wz0HFh2rHtuNOb4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTQ3/LTE0NjM0MjI2MjIt/NDkyMi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Delerium",
+        "title": "Karma",
+        "year": 1997,
+        "discogs": "https://www.discogs.com/master/52148-Delerium-Karma",
+        "cover": "https://i.discogs.com/MIyK6lc77-kLKJWY8nP4KaakS5Cj2PNbgDWzncFkjIo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODY3/Mi0xMTUyODIxNDAw/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Enigma",
+        "title": "MCMXC a.D.",
+        "year": 1990,
+        "discogs": "https://www.discogs.com/master/85854-Enigma-MCMXC-aD",
+        "cover": "https://i.discogs.com/iRjYBcXtzDzGeUW9RrarcExKWVHy59-B4YiDE6b5U28/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTEy/LTE0NzU1MTI5NzEt/MzQ5NC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Enya",
+        "title": "The Celts",
+        "year": 1992,
+        "discogs": "https://www.discogs.com/master/27706-Enya-The-Celts",
+        "cover": "https://i.discogs.com/oOIXhlM0jFKusObDlpaPr9-n-jT3DT5t8x2TVtzPdog/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDAx/MzUtMTM3NDM4MzE3/Ni02MDg3LmpwZWc.jpeg"
+    },
+    {
+        "artist": "The Future Sound Of London",
+        "title": "Lifeforms",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/6526-The-Future-Sound-Of-London-Lifeforms",
+        "bandcamp": "https://fsol.bandcamp.com/album/lifeforms",
+        "cover": "https://i.discogs.com/WSRs0d9lgQZ3Xh1SZ-1MPqdgPUgvTiOej-g0F4sDJBw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MjIw/MDctMTUwNTgxNzM0/My0yNDEwLmpwZWc.jpeg"
+    },
+    {
+        "artist": "Global Communication",
+        "title": "76:14",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/16236-Global-Communication-7614",
+        "cover": "https://i.discogs.com/4SrLd2JkeD_wbjNH0CwqayrrWROdDOyzPNo6q5x7XuA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDAt/MTI0NTU1Nzk4MS5q/cGVn.jpeg"
+    },
+    {
+        "artist": "Harold Budd",
+        "title": "The White Arcades",
+        "year": 1988,
+        "discogs": "https://www.discogs.com/master/33852-Harold-Budd-The-White-Arcades",
+        "bandcamp": "https://haroldbudd.bandcamp.com/album/the-white-arcades",
+        "cover": "https://i.discogs.com/E_1c4nk_txcxXVUX9eWiM1Lk_d_GGL6JamUMFj5W9B8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyMDEw/LTE1MDE0OTU4MTIt/ODEwMy5qcGVn.jpeg"
+    },
+    {
+        "artist": "Jason van Wyk",
+        "title": "Inherent",
+        "year": 2025,
+        "discogs": "https://www.discogs.com/master/3879031-Jason-van-Wyk-Inherent",
+        "bandcamp": "https://jasonvanwyk.bandcamp.com/album/inherent-3",
+        "cover": "https://i.discogs.com/SmKeR0GPaXI8nJNmt9D7sdDjUGxUdV8yagFAEm4oNv4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjUy/OTgxLTE3NDk3ODAz/MDgtMTc5Mi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Klaus Schulze",
+        "title": "Deus Arrakis",
+        "year": 2022,
+        "discogs": "https://www.discogs.com/master/2691650-Klaus-Schulze-Deus-Arrakis",
+        "bandcamp": "https://klausschulze.bandcamp.com/album/deus-arrakis",
+        "cover": "https://i.discogs.com/ajYjr8nbLHq6QjkVGDZ4pavKahZlxNdxmGENB6idZ4s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMzAz/NzIwLTE2NTkyMDk0/MzQtNjEzOS5qcGVn.jpeg"
+    },
+    {
+        "artist": "L.S.G.",
+        "title": "Into Deep",
+        "year": 1999,
+        "discogs": "https://www.discogs.com/master/46740-LSG-Into-Deep",
+        "cover": "https://i.discogs.com/v8pz5VdooBMDrI9jmx0aqNGcKHdCg0C_0ARbuGMNb-0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTIw/LTEzMjU5OTExODEu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Ladytron",
+        "title": "Gravity The Seducer",
+        "year": 2011,
+        "discogs": "https://www.discogs.com/master/367664-Ladytron-Gravity-The-Seducer",
+        "bandcamp": "https://ladytron.bandcamp.com/album/gravity-the-seducer",
+        "cover": "https://i.discogs.com/uo_WmpueOjGyI_FucX435TywVvlPQ-iDaw3yl43zpZs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTkx/NzAtMTQ1OTMxNzA2/NS00MDU0LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Ladytron",
+        "title": "Ladytron",
+        "year": 2019,
+        "discogs": "https://www.discogs.com/master/1494870-Ladytron-Ladytron",
+        "bandcamp": "https://ladytron.bandcamp.com/album/ladytron",
+        "cover": "https://i.discogs.com/js_Uf8S1ew5VU9t1g-PAB0Kt8eHdzsRbU6rlTCpJ0DU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTU2/MzIzLTE1NzQ1MTc5/ODAtMTU4MS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Ladytron",
+        "title": "Time's Arrow",
+        "year": 2023,
+        "discogs": "https://www.discogs.com/master/2947231-Ladytron-Times-Arrow",
+        "bandcamp": "https://ladytron.bandcamp.com/album/times-arrow",
+        "cover": "https://i.discogs.com/P4a8WqgJ1jSRpIJI8TkUp_Sp1-vLOGhnIYl28HMNq7k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODI0/NDg3LTE2NzQyMDg1/ODUtMzYyMy5qcGVn.jpeg"
+    },
+    {
+        "artist": "Leftfield",
+        "title": "Leftism",
+        "year": 1995,
+        "discogs": "https://www.discogs.com/master/66073-Leftfield-Leftism",
+        "cover": "https://i.discogs.com/lb90SbCLd1BWYSOgUaLpCfOpZ_dkVgk0m0cWG6oFNeY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2MTc0/LTExOTY3NTY1MTcu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Loneward",
+        "title": "Beyond The Sea Part One",
+        "year": 2024,
+        "discogs": "https://www.discogs.com/release/35802097-Loneward-Beyond-The-Sea-Part-One",
+        "bandcamp": "https://altusmusic.bandcamp.com/album/beyond-the-sea-part-one",
+        "cover": "https://i.discogs.com/7JEbdLyrBNZARzeZ-1wrVFDunfJ6GNjdqeBXmJmuBW0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1ODAy/MDk3LTE3NjQ0ODM5/NjctNTIyMy5qcGVn.jpeg"
+    },
+    {
+        "artist": "Loneward",
+        "title": "Beyond The Sea Part Two",
+        "year": 2024,
+        "discogs": "https://www.discogs.com/release/35667913-Loneward-Beyond-The-Sea-Part-Two",
+        "bandcamp": "https://altusmusic.bandcamp.com/album/beyond-the-sea-part-two",
+        "cover": "https://i.discogs.com/QQOvu-4h2m1iZ8tt5G3r1yX4ho60cvcyMXTMkFxrIok/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NjY3/OTEzLTE3NjMxODk0/ODAtNDg1Ny5qcGVn.jpeg"
+    },
+    {
+        "artist": "M. Geddes Gengras",
+        "title": "Expressed, I Noticed Silence",
+        "year": 2022,
+        "discogs": "https://www.discogs.com/master/2710556-M-Geddes-Gengras-Expressed-I-Noticed-Silence",
+        "bandcamp": "https://mgeddesgengras1.bandcamp.com/album/expressed-i-noticed-silence",
+        "cover": "https://i.discogs.com/t6wlJTnNpW-cz8A9ge8Z47gVTzLr8OyTDrETk0QSUmo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODk0/NzU2LTE2NTc5MDUz/NjAtNDQwOS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Man Without Country",
+        "title": "Maximum Entropy",
+        "year": 2015,
+        "discogs": "https://www.discogs.com/master/788146-Man-Without-Country-Maximum-Entropy",
+        "cover": "https://i.discogs.com/85U4udadaGjVDtdRyba3Ni_Yvz_V3OUcYZHHoxM0sKw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1NjM4/NDctMTQyMjA5ODg1/OS01MjE3LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Man Without Country",
+        "title": "Infinity Mirror",
+        "year": 2018,
+        "discogs": "https://www.discogs.com/master/1444628-Man-Without-Country-Infinity-Mirror",
+        "bandcamp": "https://manwithoutcountry.bandcamp.com/album/infinity-mirror",
+        "cover": "https://i.discogs.com/nm62xrO9fAZEtA2SGO6CyGf594oKaJoJcxFxipt4Qsg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzE4/NDI5LTE1ODczMTk5/OTEtODgxOC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Mikkel Rev",
+        "title": "Journey Beyond",
+        "year": 2025,
+        "discogs": "https://www.discogs.com/master/3878647-Mikkel-Rev-Journey-Beyond",
+        "cover": "https://i.discogs.com/h86LDIJmPnLOptKVHQ2D0XdSMkziRZsVSEIWXGcyio0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjY0/NjkzLTE3NDk4OTE5/MzAtODM3MC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Mirco de Govia",
+        "title": "Iconic Path",
+        "year": 2008,
+        "discogs": "https://www.discogs.com/release/1328006-Mirco-de-Govia-Iconic-Path",
+        "cover": "https://i.discogs.com/GvpIYDhZJIK9VA-yC4mDwXV9_GR8AGyZ9ZvF0cffPRw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjgw/MDYtMTIxMDQ1NzMy/OC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Moby",
+        "title": "Everything Was Beautiful, And Nothing Hurt",
+        "year": 2018,
+        "discogs": "https://www.discogs.com/master/1321725-Moby-Everything-Was-Beautiful-And-Nothing-Hurt",
+        "bandcamp": "https://moby.bandcamp.com/album/everything-was-beautiful-and-nothing-hurt",
+        "cover": "https://i.discogs.com/99ZDxI1g71FQvabJes9mhGE0KkAp5nZzKu-RNDMNPvg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjI3/MzI4LTE1NDI0MDQz/MDYtNzQwMC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Andy Moor",
+        "title": "Zero Point One",
+        "year": 2012,
+        "discogs": "https://www.discogs.com/master/453837-Andy-Moor-Zero-Point-One",
+        "cover": "https://i.discogs.com/-Kw0PpLq-Vk5nrx1lE84nMdGQv1nZUSuJzYTAcBWtr8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjE3/MTAtMTczNDM4ODI2/MS0xMTY5LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Muse",
+        "title": "Origin Of Symmetry",
+        "year": 2001,
+        "discogs": "https://www.discogs.com/master/11019-Muse-Origin-Of-Symmetry",
+        "cover": "https://i.discogs.com/gE0NuhIiNaj9W7BVQ6ZkpCAcXZ0x5b0Bijp2EvQSLRA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMDg0/MS0xNjc4MDE1Mzcz/LTk5ODguanBlZw.jpeg"
+    },
+    {
+        "artist": "Nicholas Gunn",
+        "title": "Beyond Grand Canyon",
+        "year": 2006,
+        "discogs": "https://www.discogs.com/release/11077661-Nicholas-Gunn-Beyond-Grand-Canyon",
+        "cover": "https://i.discogs.com/0wugSkCVF_-lKryndBp942EVHuanf3DBppdl0rmy0mA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDc3/NjYxLTE1MDk0MzQ1/MDEtNzYzNC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Paul Oakenfold",
+        "title": "Perfecto Presents...Travelling",
+        "year": 2000,
+        "discogs": "https://www.discogs.com/master/57633-Paul-Oakenfold-Perfecto-PresentsTravelling",
+        "cover": "https://i.discogs.com/6EFe3Y_xqHfpEaEK2qQ7vosz7cnjy7nMl1vnEpUIuzU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyODI5/NC0xNDQ0MTY2MDQ1/LTM5NjguanBlZw.jpeg"
+    },
+    {
+        "artist": "Mike Oldfield",
+        "title": "Tubular Bells II",
+        "year": 1992,
+        "discogs": "https://www.discogs.com/master/38699-Mike-Oldfield-Tubular-Bells-II",
+        "cover": "https://i.discogs.com/JHZV3-tHalF-SvecJQKcyJfQ0ObO9wtH_bS4QxZ2ATw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3Nzcz/NS0xNTk5OTk2Njcw/LTIxOTAuanBlZw.jpeg"
+    },
+    {
+        "artist": "Mike Oldfield",
+        "title": "The Songs Of Distant Earth",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/108535-Mike-Oldfield-The-Songs-Of-Distant-Earth",
+        "cover": "https://i.discogs.com/Opkvol7pOzeVbcSSFlzpYKcD2MEEYHNOXTXzffx-sQA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTE1/NS0xMTc1ODA3Mzg4/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Mike Oldfield",
+        "title": "Voyager",
+        "year": 1996,
+        "discogs": "https://www.discogs.com/master/74566-Mike-Oldfield-Voyager",
+        "cover": "https://i.discogs.com/rXNAkZz_Q2pptkGufWYnu73uKbJOjL3Qh9mepnfJo7o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNTYw/MS0xNTYxMjQxMDAz/LTc2NDQuanBlZw.jpeg"
+    },
+    {
+        "artist": "The Orb",
+        "title": "The Orb's Adventures Beyond The Ultraworld",
+        "year": 1991,
+        "discogs": "https://www.discogs.com/master/7119-The-Orb-The-Orbs-Adventures-Beyond-The-Ultraworld",
+        "cover": "https://i.discogs.com/-fvZXZz5Vx1aptVtjadlWYOHwiZ9fWYNHTkEBdXGnqI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODQy/NTgtMTY4NTM2Njky/Ny00NTk3LmpwZWc.jpeg"
+    },
+    {
+        "artist": "John O'Callaghan",
+        "title": "Subculture",
+        "year": 2009,
+        "discogs": "https://www.discogs.com/master/214654-John-OCallaghan-Subculture",
+        "cover": "https://i.discogs.com/RPuvwjasXjLwNabhimYgUvj0ixCkkVXWEEn45ttNnh8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMzgz/NDAtMTI2MDExNTQ2/MC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Orkidea",
+        "title": "Harmonia",
+        "year": 2015,
+        "discogs": "https://www.discogs.com/master/844636-Orkidea-Harmonia",
+        "cover": "https://i.discogs.com/KnYcR0hqlUG00_KWjf0OEvsZYx7U3D_ghm0CaU4T_HM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNzIy/MjctMTQzMzA2NjU3/Ny05NzU5LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Orkidea",
+        "title": "Pure Progressive Vol. 1",
+        "year": 2020,
+        "discogs": "https://www.discogs.com/master/1818693-Orkidea-Pure-Progressive-Vol-1",
+        "cover": "https://i.discogs.com/tGoli0EsOOmmml-gL9EdhI0658vRa-rXZ_XypPnct5s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjUw/NzI0LTE2MTE0MjE5/NTItODczMS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Ott",
+        "title": "Skylon",
+        "year": 2008,
+        "discogs": "https://www.discogs.com/master/220281-Ott-Skylon",
+        "bandcamp": "https://ottsonic.bandcamp.com/album/skylon",
+        "cover": "https://i.discogs.com/4ptdJQPGw8_ePgXRZUnC8x7-dmQslq5wrUllujgcBuo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTQ1/MDMtMTIwMTk4OTQy/Mi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Craig Padilla",
+        "title": "The Light In The Shadow",
+        "year": 2006,
+        "discogs": "https://www.discogs.com/release/839382-Craig-Padilla-The-Light-In-The-Shadow",
+        "cover": "https://i.discogs.com/PlGXg5iHmFB2DdZUNo1wll0KrggwIwlljZhyOORtQAs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzOTM4/Mi0xMTgyODg5NzMw/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Quietman",
+        "title": "Shhhh",
+        "year": 1998,
+        "discogs": "https://www.discogs.com/master/70002-Quietman-Shhhh",
+        "cover": "https://i.discogs.com/NAX-yGXyALUlo7OQIXaLRCL4YmGESAYJZxn5Imn3P74/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NDc4/NC0xMTU5MjgyOTcz/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "R.E.M.",
+        "title": "Automatic For The People",
+        "year": 1992,
+        "discogs": "https://www.discogs.com/master/57830-REM-Automatic-For-The-People",
+        "cover": "https://i.discogs.com/QnuRV20srK1nILQu6Lc5ry6-7Tfcu-h50AtU-bD47G0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzkw/NzEtMTI0MzYyMjA4/Mi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Robert Nickson",
+        "title": "Tellurian",
+        "year": 2019,
+        "discogs": "https://www.discogs.com/master/1633102-Robert-Nickson-Tellurian",
+        "cover": "https://i.discogs.com/cDkInIWmDbvDM4GQ31Yia58JyRroAwx3uJLUmeKFGg0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzUx/MjE3LTE1NzI3Nzkx/MDMtNTM4My5qcGVn.jpeg"
+    },
+    {
+        "artist": "Röyksopp",
+        "title": "Melody A.M.",
+        "year": 2001,
+        "discogs": "https://www.discogs.com/master/30112-Röyksopp-Melody-AM",
+        "cover": "https://i.discogs.com/K012_U8YQeUJTHZHYT7eo2gxDr-_cE0GOSI_eNViJwQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTUw/LTE1OTI0NTk4NzEt/NzE0NC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Röyksopp",
+        "title": "Profound Mysteries",
+        "year": 2022,
+        "discogs": "https://www.discogs.com/master/2613569-Röyksopp-Profound-Mysteries",
+        "bandcamp": "https://royksopp.bandcamp.com/album/profound-mysteries-2",
+        "cover": "https://i.discogs.com/mDIkqe-rgaw0xwUMcwNkS6_aVxs3bqeiQr8Rob5JdLc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDUy/MTI1LTE2NTEyMzMy/MzYtNzY5NC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Sasha",
+        "title": "Airdrawndagger",
+        "year": 2002,
+        "discogs": "https://www.discogs.com/master/8581-Sasha-Airdrawndagger",
+        "cover": "https://i.discogs.com/sAtEEYCXW3LsQjJQe8WQJw2z-PQn3AHp-BatagGmp50/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMTA2/LTE1NjI3Nzc5NTUt/MjQ3NC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Sasha And John Digweed",
+        "title": "Northern Exposure",
+        "year": 1996,
+        "discogs": "https://www.discogs.com/master/1400-Sasha-And-John-Digweed-Northern-Exposure",
+        "cover": "https://i.discogs.com/LLizzQSKikX9moSl7w5wYI8Mv7MBLDmDZa7SPSb_5i8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MTY1/LTE1MTM2ODYyNTAt/MzQ5My5qcGVn.jpeg"
+    },
+    {
+        "artist": "Schiller",
+        "title": "Morgenstund",
+        "year": 2019,
+        "discogs": "https://www.discogs.com/master/1520763-Schiller-Morgenstund",
+        "cover": "https://i.discogs.com/xpNme-lneuzo-aBUBAIK1gk3No-FGr8wQjlqcrhzWIY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTIy/NDg5LTE1NTM2MzAw/NjQtNzk4OS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Schiller",
+        "title": "Illuminate",
+        "year": 2023,
+        "discogs": "https://www.discogs.com/master/3010229-Schiller-Illuminate",
+        "cover": "https://i.discogs.com/hiONp7A6Avd2FHfOfqnnltNu3pty1gdgNcd6v2Hba_A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mzgw/MzYxLTE2Nzg1Njcz/NjUtMTI1Ni5qcGVn.jpeg"
+    },
+    {
+        "artist": "Schiller",
+        "title": "Euphoria",
+        "year": 2026,
+        "discogs": "https://www.discogs.com/master/4100566-Schiller-Euphoria",
+        "cover": "https://i.discogs.com/JMXmB5p3kKtIkkSHoI3FBRDqK4WARJyPQYGp5KA3Xnw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NjA3/NDk0LTE3NjkzNzk4/MzEtNjIyNi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Shpongle",
+        "title": "Tales Of The Inexpressible",
+        "year": 2001,
+        "discogs": "https://www.discogs.com/master/7822-Shpongle-Tales-Of-The-Inexpressible",
+        "bandcamp": "https://shponglemusic.bandcamp.com/album/tales-of-the-inexpressible-remastered",
+        "cover": "https://i.discogs.com/w4IWBDxMFSL7YyMb52a7vWv8rY3LrtPgYjhI6KuY2c4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MDc2/LTEzMTE4NTc2OTMu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Sigur Rós",
+        "title": "Takk...",
+        "year": 2005,
+        "discogs": "https://www.discogs.com/master/9658-Sigur-Rós-Takk",
+        "bandcamp": "https://sigurros.bandcamp.com/album/takk",
+        "cover": "https://i.discogs.com/9-v4pokVYJcnTakgANAYcf7iNFKW1GEq2DAM4QZNZGw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyMDEx/Ni0xMzU1ODAwMTkx/LTY0OTguanBlZw.jpeg"
+    },
+    {
+        "artist": "Slowdive",
+        "title": "Everything Is Alive",
+        "year": 2023,
+        "discogs": "https://www.discogs.com/master/3220669-Slowdive-Everything-Is-Alive",
+        "bandcamp": "https://slowdive.bandcamp.com/album/everything-is-alive",
+        "cover": "https://i.discogs.com/AIFPtI5pQpifMKAcBYfoPExYqVa3uF5KMCjAYf_XqpM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDg1/OTIwLTE2OTMwNzgz/OTctNjI1OS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Solar Stone",
+        "title": "Chilled Out Euphoria",
+        "year": 2001,
+        "discogs": "https://www.discogs.com/master/841910-Solar-Stone-Chilled-Out-Euphoria",
+        "cover": "https://i.discogs.com/5Dl5sqDYFjVjvfgcba6TtwP9E-BX2PBp6qIzjNI4q2Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2MTEw/LTEzMDI2MjU3NjEu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Solarstone",
+        "title": "AnthologyOne",
+        "year": 2006,
+        "discogs": "https://www.discogs.com/master/103061-Solarstone-AnthologyOne",
+        "cover": "https://i.discogs.com/fapTMMSddxDANebW6Jalk6mzpnIPuq68Ysk1Ysm9ByA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMjg3/NC0xMzU2ODA2ODc2/LTI1NTQuanBlZw.jpeg"
+    },
+    {
+        "artist": "Solarstone",
+        "title": "Innermost",
+        "year": 2025,
+        "discogs": "https://www.discogs.com/master/3877783-Solarstone-Innermost",
+        "bandcamp": "https://solarstone.bandcamp.com/album/innermost",
+        "cover": "https://i.discogs.com/Y1BiIL1uXJ08oK9IHJ62PQOf4GS20ikZjV5DXBoOoQA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjQ3/MTM0LTE3NDk4MTg4/OTctNzk3Ni5qcGVn.jpeg"
+    },
+    {
+        "artist": "Space Manoeuvres",
+        "title": "Oid",
+        "year": 2005,
+        "discogs": "https://www.discogs.com/master/146807-Space-Manoeuvres-Oid",
+        "cover": "https://i.discogs.com/Za3Ic4m22VOq4Cf_w4at4v_kw6r58p0LIv1UX_czVUk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyMDgw/NS0xMjEyNzg1MTI4/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Suduaya",
+        "title": "SoulQuest",
+        "year": 2022,
+        "discogs": "https://www.discogs.com/master/2919097-Suduaya-SoulQuest",
+        "bandcamp": "https://suduaya.bandcamp.com/album/soulquest",
+        "cover": "https://i.discogs.com/RtGCUfY6wNMiG5Mxu6IxwjiAjaWidWSmkHPKbk1fzxM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNjYx/MDk4LTE2NTU5MjMw/MDEtOTIwNi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Super8 & Tab",
+        "title": "Empire",
+        "year": 2010,
+        "discogs": "https://www.discogs.com/master/284254-Super8-Tab-Empire",
+        "cover": "https://i.discogs.com/bLwKc6Lqmy61xk0VKVIygDlNOJb5FCjAcXgRmdeQ-jY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mzkx/MjYtMTMwMTQwMjM4/Ny5qcGVn.jpeg"
+    },
+    {
+        "artist": "Tame Impala",
+        "title": "Currents",
+        "year": 2015,
+        "discogs": "https://www.discogs.com/master/861083-Tame-Impala-Currents",
+        "cover": "https://i.discogs.com/IPQHVvwWF0XrYmhXnrfFJpKcb-1hJxdUBH7w7igdryw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNTIx/MTEtMTY5NzM4MTkw/MS0yMjg3LmpwZWc.jpeg"
+    },
+    {
+        "artist": "The Thrillseekers Present Hydra",
+        "title": "Altered State",
+        "year": 2019,
+        "discogs": "https://www.discogs.com/master/1651303-The-Thrillseekers-Present-Hydra-Altered-State",
+        "bandcamp": "https://thethrillseekers.bandcamp.com/album/altered-state",
+        "cover": "https://i.discogs.com/xfHnGmghowuOtmLgvaKLdE_VvP_vFOFICcIk_jT8atU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTIx/MzQzLTE1NzYyNTcy/NzQtMTgzOS5qcGVn.jpeg"
+    },
+    {
+        "artist": "DJ Tiësto",
+        "title": "In Search Of Sunrise 2",
+        "year": 2000,
+        "discogs": "https://www.discogs.com/master/258264-DJ-Tiësto-In-Search-Of-Sunrise-2",
+        "cover": "https://i.discogs.com/OL2t3zlusV5cSh4gtL4c1CMcjvZRNhLHoECJrvNdUS4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODIx/LTEyMjQyNzI0NDYu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Devin Townsend",
+        "title": "Lightwork",
+        "year": 2022,
+        "discogs": "https://www.discogs.com/master/2851222-Devin-Townsend-Lightwork",
+        "bandcamp": "https://insideoutmusic.bandcamp.com/album/lightwork",
+        "cover": "https://i.discogs.com/soYmkFn4ngFPaXkoNelxK9jDZQ8rNUFS6nsqXYBpTz0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDg5/NDA5LTE2Njc4NTAw/NzktMjc1Ni5qcGVn.jpeg"
+    },
+    {
+        "artist": "Ulrich Schnauss",
+        "title": "A Strangely Isolated Place",
+        "year": 2003,
+        "discogs": "https://www.discogs.com/master/44982-Ulrich-Schnauss-A-Strangely-Isolated-Place",
+        "cover": "https://i.discogs.com/oF6RyoTjP1l_K4lGigSXZhfSDdmoaZHaCnd6u0vk6Fk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODg5/NC0xNTAwODI5MzEz/LTc3NzAuanBlZw.jpeg"
+    },
+    {
+        "artist": "Ulrich Schnauss",
+        "title": "Goodbye",
+        "year": 2007,
+        "discogs": "https://www.discogs.com/master/44993-Ulrich-Schnauss-Goodbye",
+        "cover": "https://i.discogs.com/cAcF_PwcJYyfPWqmffLAQiEJ8RGQRSCYDWNvhG8SPQE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5OTQz/Mi0xNTE5MjQ5Mzc4/LTQ2MzIuanBlZw.jpeg"
+    },
+    {
+        "artist": "UnionJack",
+        "title": "There Will Be No Armageddon",
+        "year": 1995,
+        "discogs": "https://www.discogs.com/master/67944-UnionJack-There-Will-Be-No-Armageddon",
+        "cover": "https://i.discogs.com/gyPliaykftBTXraZNHahsRjFHIHO0L5p-_EukDumpZI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTIy/LTEzMTY3OTcyNDMu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Vangelis",
+        "title": "Voices",
+        "year": 1995,
+        "discogs": "https://www.discogs.com/master/12746-Vangelis-Voices",
+        "cover": "https://i.discogs.com/R5cIXxyJAOZFmtD-241agW7BwBnYyz3sQO4LkssLEz0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTMy/MTMtMTM2NDAzODY4/NS01MDU2LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Vangelis",
+        "title": "Oceanic",
+        "year": 1996,
+        "discogs": "https://www.discogs.com/master/12824-Vangelis-Oceanic",
+        "cover": "https://i.discogs.com/ThM8rZNgKXOqV-0mpjvVu4Uv3NyZU6VRo_tDcAUV0Lo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk1NTY2/LTE0NTI5NTQ3NTAt/NDM2OC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "Artificial Intelligence II",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/21134-Various-Artificial-Intelligence-II",
+        "cover": "https://i.discogs.com/32eE-3daUlcioDQgMRTKNDncwGscoBY0QoXZilMXgw8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDAx/NS0xMjAxNzk1MzI2/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "Freezone 1 : The Phenomenology Of Ambient",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/71856-Various-Freezone-1-The-Phenomenology-Of-Ambient",
+        "cover": "https://i.discogs.com/OSt_yHTDPIyzb3nQGITBlXBLgeYxfvS890wChJLeQcQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwNzQt/MTI4OTEyMTQwNy5q/cGVn.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "Behind The Eye Vol. II",
+        "year": 1995,
+        "discogs": "https://www.discogs.com/master/44262-Various-Behind-The-Eye-Vol-II",
+        "cover": "https://i.discogs.com/MR75k6ImhlrQBAE9z8yQ_LZwZGlcNJlDkwujjC8dWwo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTY5/LTEyMDUwNzM0Mzcu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Aural Float",
+        "title": "Space Night Vol. V",
+        "year": 1999,
+        "discogs": "https://www.discogs.com/master/108625-Aural-Float-Space-Night-Vol-V",
+        "cover": "https://i.discogs.com/DwhCJ91zXAD_RzdSy_D_e23PGfNYayzGYBH-KNtV4K4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNzAz/LTE0MTUyNzM4NjAt/NjYxNC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "Mantras In Motion",
+        "year": 2008,
+        "discogs": "https://www.discogs.com/master/1269900-Various-Mantras-In-Motion",
+        "cover": "https://i.discogs.com/anBh7HNyX8hw2kWipga5X36QBMXuinB5nnEP1ryhqBk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNjc4/MTUtMTI2MjEwNTcz/NS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "Enhanced Best of 2010 (The Year Mix)",
+        "year": 2011,
+        "discogs": "https://www.discogs.com/release/27758481-Various-Enhanced-Best-of-2010-The-Year-Mix",
+        "cover": "https://i.discogs.com/fVKtNgLtfzpf-7H15AUHeiAcaYSniUxIsgzYbZrJFpY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NzU4/NDgxLTE2OTAxMTU3/OTMtODY2OC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "Lost Language Exhibition Century",
+        "year": 2010,
+        "discogs": "https://www.discogs.com/master/242951-Various-Lost-Language-Exhibition-Century",
+        "cover": "https://i.discogs.com/YB2OazVhknLPFe2lOJoQ7JYScQlCoOvqbtrmq0Een7I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDA0/NDAtMTI3MTc0ODM3/Ni5qcGVn.jpeg"
+    },
+    {
+        "artist": "John Digweed",
+        "title": "Bedrock Compiled & Mixed By John Digweed",
+        "year": 1999,
+        "discogs": "https://www.discogs.com/master/38400-John-Digweed-Bedrock-Compiled-Mixed-By-John-Digweed",
+        "cover": "https://i.discogs.com/uZacausFeL9z3tXyCc4_8dk-UMRoq3z1VlhEXvOwMMI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5ODIy/NS0xMTc3MjU2ODIx/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "The Very Best Euphoric Chillout Mixes Breakdown",
+        "year": 2001,
+        "discogs": "https://www.discogs.com/release/77553-Various-The-Very-Best-Euphoric-Chillout-Mixes-Breakdown",
+        "cover": "https://i.discogs.com/ksPVlGPk2APRTbZuvks1_7rBooMn8fqBQUkkX8p5MkI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3NTUz/LTE2NTg5MjY5NDkt/NzUwMi5qcGVn.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "The Very Best Euphoric Chillout Mixes Breakdown",
+        "year": 2001,
+        "discogs": "https://www.discogs.com/release/805559-Various-The-Very-Best-Euphoric-Chillout-Mixes-Breakdown",
+        "cover": "https://i.discogs.com/9raPuTuRIiUsAdDk2Eb2dRTO5QSsa7B47-kmXr-ThL0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgwNTU1/OS0xNjYwOTQwNDIz/LTY1MTIuanBlZw.jpeg"
+    },
+    {
+        "artist": "Activa",
+        "title": "Movement: One",
+        "year": 2023,
+        "discogs": "https://www.discogs.com/master/3190365-Activa-Movement-One",
+        "cover": "https://i.discogs.com/KPgQUwHDiIonRM6K1tpWfC56lR0o44QjvChz5NQH5ho/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NjE2/ODM2LTE2ODg4Mjgx/NjgtMTYwNS5qcGVn.jpeg"
+    },
+    {
+        "artist": "The War On Drugs",
+        "title": "A Deeper Understanding",
+        "year": 2017,
+        "discogs": "https://www.discogs.com/master/1227468-The-War-On-Drugs-A-Deeper-Understanding",
+        "cover": "https://i.discogs.com/5GyGajrbp2MHfoGudLB_e76t_VxAblefutt2PR4w5lI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzUy/OTQ3LTE1MDQxNjMy/MTktODg0NS5wbmc.jpeg"
+    },
+    {
+        "artist": "The War On Drugs",
+        "title": "I Don't Live Here Anymore",
+        "year": 2021,
+        "discogs": "https://www.discogs.com/master/2356930-The-War-On-Drugs-I-Dont-Live-Here-Anymore",
+        "cover": "https://i.discogs.com/I8UNcvKZX6PwCWeZt8UKV-yovqA9-VxOdu2cUM_BbXQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNzI2/NTY5LTE2MzU0NTU3/NjgtMTEzNC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Way Out West",
+        "title": "Intensify",
+        "year": 2001,
+        "discogs": "https://www.discogs.com/master/42960-Way-Out-West-Intensify",
+        "cover": "https://i.discogs.com/wtgHiXhq2YClF-o5ngEymofMOhrH7snCVAPHNqF1ywM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MjA2/LTE1ODMxNzYyODMt/NzA0NC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Erik Wøllo",
+        "title": "Gateway",
+        "year": 2010,
+        "discogs": "https://www.discogs.com/master/1440215-Erik-Wøllo-Gateway",
+        "bandcamp": "https://projektrecords.bandcamp.com/album/gateway",
+        "cover": "https://i.discogs.com/pjBWk9M5oEpt1jaoikONV93PZXLzmp5iGI1B4EG16Hk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMjIy/MTMtMTI4NzA2ODk4/OS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Yagya",
+        "title": "Faded Photographs",
+        "year": 2023,
+        "discogs": "https://www.discogs.com/master/3022268-Yagya-Faded-Photographs",
+        "bandcamp": "https://yagya.bandcamp.com/album/faded-photographs",
+        "cover": "https://i.discogs.com/iMhNzwV6xXd7Nvjp07mGAEwVN0Wj7KIHohFDAy5wJzQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NDEw/MDQ2LTE2Nzg3MzUx/NjAtNjY5OC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Young American Primitive",
+        "title": "Young American Primitive",
+        "year": 1993,
+        "discogs": "https://www.discogs.com/master/881254-Young-American-Primitive-Young-American-Primitive",
+        "cover": "https://i.discogs.com/Q93BeAA26oqVaPKFyu7KgYWS9WIljGd3FHdZshQXZnc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDM5/LTE0ODQ3MTY4NTkt/NDk4NS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Woob",
+        "title": "Woob 1194",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/59039-Woob-Woob-1194",
+        "bandcamp": "https://woob.bandcamp.com/album/woob-1194",
+        "cover": "https://i.discogs.com/f8Nr1FVM3HY4Rst1TzckfZAJjcW-NJHU3E3rrXK0cko/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2ODc3/LTAwMS5qcGc.jpeg"
+    },
+    {
+        "artist": "Woob",
+        "title": "Repurpose",
+        "year": 2010,
+        "discogs": "https://www.discogs.com/master/266552-Woob-Repurpose",
+        "bandcamp": "https://woob.bandcamp.com/album/repurpose",
+        "cover": "https://i.discogs.com/5JktPWa51sMde-2-gcByOWKsagrgpoNnsEJbgCww4Gg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTQy/OTUtMTI3NTAwMzM1/Ni5qcGVn.jpeg"
+    },
+    {
+        "artist": "Erik Wøllo",
+        "title": "Solastalgia",
+        "year": 2024,
+        "discogs": "https://www.discogs.com/master/3614611-Erik-Wøllo-Solastalgia",
+        "bandcamp": "https://projektrecords.bandcamp.com/album/solastalgia",
+        "cover": "https://i.discogs.com/4jYh88cxUrv5gRvSjPExgk6D-jilOVTLKBh_zon--Ow/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODk3/NjU3LTE3Mjc5NjQ0/OTctNzgwNy5qcGVn.jpeg"
+    },
+    {
+        "artist": "Various",
+        "title": "United State Of Ambience",
+        "year": 1994,
+        "discogs": "https://www.discogs.com/master/66751-Various-United-State-Of-Ambience",
+        "cover": "https://i.discogs.com/bKErIUkfTz6of90UhPkllh3rTLeJ5vaFPLWJggvZnu0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwOTc3/My0xNjM0MjI4NDU0/LTg1NDUuanBlZw.jpeg"
+    },
+    {
+        "artist": "Sasha And John Digweed",
+        "title": "Northern Exposure 2 (East Coast Edition)",
+        "year": 1998,
+        "discogs": "https://www.discogs.com/release/57380-Sasha-And-John-Digweed-Northern-Exposure-2-East-Coast-Edition",
+        "cover": "https://i.discogs.com/6KBVZAl5CTynal8Z40wsl1YQfViMu3IzASPhIHqN4m8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3Mzgw/LTExNjc3OTg0OTYu/anBlZw.jpeg"
+    },
+    {
+        "artist": "Queen",
+        "title": "Greatest Hits II",
+        "year": 1991,
+        "discogs": "https://www.discogs.com/master/19198-Queen-Greatest-Hits-II",
+        "cover": "https://i.discogs.com/_gaVlB7X_IA2plxP0vVp7eR_GwJ8foo-iW2ertzd5KQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU1/NzMyLTE2MDk2MzM3/OTMtNDkxMS5qcGVn.jpeg"
+    },
+    {
+        "artist": "Manic Street Preachers",
+        "title": "This Is My Truth Tell Me Yours",
+        "year": 1998,
+        "discogs": "https://www.discogs.com/master/102232-Manic-Street-Preachers-This-Is-My-Truth-Tell-Me-Yours",
+        "cover": "https://i.discogs.com/XGpT0d-PhUiqg16lgnIN2dDBo0j0M3P6pVB-jsHXLIE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTYz/MS0xMjc3ODk0OTk0/LmpwZWc.jpeg"
+    },
+    {
+        "artist": "Manic Street Preachers",
+        "title": "The Ultra Vivid Lament",
+        "year": 2021,
+        "discogs": "https://www.discogs.com/master/2292346-Manic-Street-Preachers-The-Ultra-Vivid-Lament",
+        "cover": "https://i.discogs.com/vGnfIOM2b4OMa1ArHfdVVWUcaNDXDs5I6ANYOvpudmw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTgx/MjQ0LTE2MzEyNzQ5/NzItMzM4NC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Alexis Ffrench",
+        "title": "Evolution",
+        "year": 2018,
+        "discogs": "https://www.discogs.com/master/1506675-Alexis-Ffrench-Evolution",
+        "cover": "https://i.discogs.com/iWkYHoBS60v1faCKBrbfTdqmzaMjwG5dEBTaNdyOE7M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDk2/MTE0LTE1NDc5OTA5/NjYtMTIwNC5qcGVn.jpeg"
     }
 ]

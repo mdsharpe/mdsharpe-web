@@ -8,14 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../site.css" />
     <style>
+        /* Number albums continuously across the decade lists. */
+        .decades {
+            counter-reset: item;
+        }
+
+        .decades h3 {
+            margin: 1.6rem 0 0.3rem;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.32em;
+            color: var(--accent);
+        }
+
+        .decades h3:first-child {
+            margin-top: 0;
+        }
+
         .albums {
             grid-template-columns: 1fr;
             gap: 0;
+            counter-reset: none;
         }
 
         .albums li {
             display: flex;
-            align-items: baseline;
+            align-items: center;
             gap: 0.7em;
             padding: 0.55rem 0;
             border-bottom: 1px solid var(--line);
@@ -25,15 +43,57 @@
             margin-right: 0;
         }
 
+        .albums .cover {
+            flex: none;
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0;
+            border: 0;
+            background-color: var(--line);
+        }
+
+        .albums .cover:hover,
+        .albums .cover:focus-visible {
+            box-shadow: 0 0 0 2px var(--accent);
+        }
+
+        .albums .cover img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
         .albums .artist {
             color: var(--muted);
         }
 
-        .albums .year {
+        .albums .links {
             margin-left: auto;
+            display: flex;
+            gap: 0.9em;
+        }
+
+        .albums .year {
             font-size: 0.62rem;
             font-weight: 700;
             letter-spacing: 0.12em;
+            color: var(--muted);
+        }
+
+        .albums .links a {
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .credit {
+            margin: 0.9rem 0 0;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
             color: var(--muted);
         }
     </style>
@@ -44,21 +104,32 @@
         <p class="meta">All-time favorites <span>// {{ albums.length }} albums</span></p>
         <h1>Music</h1>
         <h2>Albums</h2>
-        <ul class="albums">
-            {%- for album in albums %}
+        <div class="decades">
+            {%- for group in albums | byDecade %}
+            <h3>{{ group.decade }}s</h3>
+            <ul class="albums">
+            {%- for album in group.albums %}
             <li>
-                {%- if album.link %}
-                <a href="{{ album.link }}" target="_blank" rel="noopener">{{ album.title }}</a>
-                {%- else %}
+                <a class="cover" href="{{ album.discogs }}" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+                    {%- if album.cover %}<img src="{{ album.cover }}" alt="" width="150" height="150" loading="lazy" />{% endif -%}
+                </a>
                 <span>{{ album.title }}</span>
-                {%- endif %}
                 <span class="artist">{{ album.artist }}</span>
+                <span class="links">
+                    <a href="{{ album.discogs }}" target="_blank" rel="noopener">Discogs</a>
+                    {%- if album.bandcamp %}
+                    <a href="{{ album.bandcamp }}" target="_blank" rel="noopener">Bandcamp</a>
+                    {%- endif %}
+                </span>
                 {%- if album.year %}
                 <span class="year">{{ album.year }}</span>
                 {%- endif %}
             </li>
             {%- endfor %}
-        </ul>
+            </ul>
+            {%- endfor %}
+        </div>
+        <p class="credit">Data provided by <a href="https://www.discogs.com/" target="_blank" rel="noopener">Discogs</a></p>
         <h2>Index</h2>
         <ul>
             <li><a href="../index.html">Home</a></li>
