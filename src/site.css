@@ -4,17 +4,8 @@
  *  letter-spaced technical labels, a single registration mark.       *
  * ------------------------------------------------------------------ */
 
-@font-face {
-    font-family: "Michroma";
-    src: url("fonts/michroma.ttf") format("truetype");
-    font-display: swap;
-}
-
 :root {
     color-scheme: light dark;
-    --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* Display face for the title and technical labels. */
-    --display: "Michroma", var(--sans);
     --bg: light-dark(#f1f1ee, #0d0d0c);
     --fg: light-dark(#14130f, #e7e5df);
     --accent: light-dark(#ff3b00, #ff4d1a);
@@ -40,7 +31,7 @@ body {
     justify-content: center;
     background-color: var(--bg);
     color: var(--fg);
-    font-family: var(--sans);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -68,9 +59,8 @@ nav::before {
 /* Cryptic technical caption above the name. */
 .meta {
     margin: 0 0 1.2rem;
-    font-family: var(--display);
     font-size: 0.62rem;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.32em;
     color: var(--fg);
@@ -93,33 +83,16 @@ nav::before {
 }
 
 h1 {
-    font-family: var(--display);
-    font-size: clamp(1.9rem, 8.8vw, 3.6rem);
-    font-weight: 400;
+    font-size: clamp(2.4rem, 11vw, 4.5rem);
+    font-weight: 700;
     margin: 0;
     line-height: 0.95;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid var(--fg);
     /* Morphs in place during cross-page view transitions. */
     view-transition-name: title;
-}
-
-/* Rule of chevrons under the title, like the trackside corner boards.
-   Wipes in once on load. */
-h1::after {
-    content: "";
-    display: block;
-    height: 0.4rem;
-    margin-top: 0.5em;
-    background-color: var(--accent);
-    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 8'%3E%3Cpath d='M0 0h4l4 4-4 4H0l4-4z'/%3E%3C/svg%3E") 0 0 / auto 100% space no-repeat;
-    animation: chevron-wipe 0.6s 0.1s ease-out both;
-}
-
-@keyframes chevron-wipe {
-    from {
-        clip-path: inset(0 100% 0 0);
-    }
 }
 
 /* Numbered section labels: "01 / PROFILES" */
@@ -129,9 +102,8 @@ nav {
 
 h2 {
     counter-increment: section;
-    font-family: var(--display);
     font-size: 0.62rem;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.32em;
     margin: 2.4rem 0 0.9rem;
@@ -160,71 +132,28 @@ li {
 /* Zero-padded numeric marker per item. */
 li::before {
     content: counter(item, decimal-leading-zero);
-    display: inline-block;
-    width: 2.2em;
     margin-right: 0.7em;
-    font-family: var(--display);
     font-size: 0.62rem;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0.12em;
     color: var(--accent);
     vertical-align: 0.12em;
 }
 
-/* Speed pad: while an item's link is hovered its number becomes
-   chevrons with a light chasing through them. */
-nav > ul > li:has(> a:hover, > a:focus-visible)::before {
-    content: "\203a\203a\203a";
-    font-family: var(--sans);
-    font-weight: 700;
-    color: transparent;
-    background: linear-gradient(90deg, var(--muted) 40%, var(--accent) 50%, var(--muted) 60%) 50% 0 / 300% 100%;
-    background-clip: text;
-    animation: speed-pad 0.45s linear infinite;
-}
-
-@keyframes speed-pad {
-    from {
-        background-position: 100% 0;
-    }
-    to {
-        background-position: 0 0;
-    }
-}
-
 a {
-    position: relative;
-    isolation: isolate;
     color: var(--link);
     text-decoration: none;
     border-bottom: 1px solid var(--line);
     padding-bottom: 0.1em;
-    transition: color 0.08s, border-color 0.08s;
-}
-
-/* Forward-leaning highlight block, like the HUD's angled bars. Skewed
-   on a pseudo-element so the text stays upright; shoots in from the
-   left. */
-a::after {
-    content: "";
-    position: absolute;
-    inset: 0 -0.3em;
-    z-index: -1;
-    background-color: var(--accent);
-    transform: skewX(-18deg) scaleX(0);
-    transform-origin: left;
-    transition: transform 0.1s ease-out;
+    transition: color 0.08s, background-color 0.08s, border-color 0.08s;
 }
 
 a:hover,
 a:focus-visible {
     color: var(--bg);
+    background-color: var(--accent);
     border-color: var(--accent);
-}
-
-a:hover::after,
-a:focus-visible::after {
-    transform: skewX(-18deg);
+    box-shadow: 0.18em 0 0 var(--accent), -0.18em 0 0 var(--accent);
 }
 
 a:focus-visible {
@@ -233,10 +162,8 @@ a:focus-visible {
 
 a:active {
     color: var(--accent);
-}
-
-a:active::after {
-    transform: skewX(-18deg) scaleX(0);
+    background-color: transparent;
+    box-shadow: none;
 }
 
 /* HUD boot-up: stagger nav contents in on load. The title is left out
