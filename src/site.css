@@ -71,6 +71,17 @@ nav::before {
     color: var(--accent);
 }
 
+/* Breadcrumb back to the home page on sub-pages. */
+.meta .home::before {
+    content: "\2190\00a0";
+    color: var(--accent);
+}
+
+.meta .home:hover::before,
+.meta .home:focus-visible::before {
+    color: inherit;
+}
+
 h1 {
     font-size: clamp(2.4rem, 11vw, 4.5rem);
     font-weight: 700;

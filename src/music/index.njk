@@ -8,9 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../site.css" />
     <style>
-        /* Number albums continuously across the decade lists. */
         .decades {
-            counter-reset: item;
+            margin-top: 2.4rem;
         }
 
         .decades h3 {
@@ -28,7 +27,6 @@
         .albums {
             grid-template-columns: 1fr;
             gap: 0;
-            counter-reset: none;
         }
 
         .albums li {
@@ -40,7 +38,7 @@
         }
 
         .albums li::before {
-            margin-right: 0;
+            content: none;
         }
 
         .albums .cover {
@@ -101,9 +99,8 @@
 
 <body>
     <nav>
-        <p class="meta">All-time favorites <span>// {{ albums.length }} albums</span></p>
+        <p class="meta"><a class="home" href="../">Matt Sharpe</a> / Favourites <span>// {{ albums.length }} albums</span></p>
         <h1>Music</h1>
-        <h2>Albums</h2>
         <div class="decades">
             {%- for group in albums | byDecade %}
             <h3>{{ group.decade }}s</h3>
@@ -113,10 +110,9 @@
                 <a class="cover" href="{{ album.discogs }}" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
                     {%- if album.cover %}<img src="{{ album.cover }}" alt="" width="150" height="150" loading="lazy" />{% endif -%}
                 </a>
-                <span>{{ album.title }}</span>
+                <a href="{{ album.discogs }}" target="_blank" rel="noopener">{{ album.title }}</a>
                 <span class="artist">{{ album.artist }}</span>
                 <span class="links">
-                    <a href="{{ album.discogs }}" target="_blank" rel="noopener">Discogs</a>
                     {%- if album.bandcamp %}
                     <a href="{{ album.bandcamp }}" target="_blank" rel="noopener">Bandcamp</a>
                     {%- endif %}
@@ -130,10 +126,6 @@
             {%- endfor %}
         </div>
         <p class="credit">Data provided by <a href="https://www.discogs.com/" target="_blank" rel="noopener">Discogs</a></p>
-        <h2>Index</h2>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-        </ul>
     </nav>
 </body>
 

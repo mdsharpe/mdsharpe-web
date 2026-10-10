@@ -2,7 +2,9 @@
 """Fill in a `cover` thumbnail URL for each album in src/_data/albums.json.
 
 Looks up each album's Discogs master/release via the public API and stores
-its primary image's 150px thumbnail. Albums that already have a cover are
+its primary image's 150px thumbnail. An album can set `coverFrom` to another
+Discogs master/release URL to take its cover from there instead (e.g. to pick
+a particular pressing's artwork). Albums that already have a cover are
 skipped unless --all is passed (use that if Discogs image links stop working).
 
     python3 scripts/fetch_covers.py [--all]
@@ -44,7 +46,7 @@ def main():
     for n, album in enumerate(todo, 1):
         label = f"{album['artist']} - {album['title']}"
         try:
-            cover = cover_for(album["discogs"])
+            cover = cover_for(album.get("coverFrom") or album["discogs"])
         except Exception as error:
             print(f"[{n}/{len(todo)}] FAILED {label}: {error}")
         else:

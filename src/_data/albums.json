@@ -106,8 +106,8 @@
         "artist": "Enya",
         "title": "The Celts",
         "year": 1992,
-        "discogs": "https://www.discogs.com/master/27706-Enya-The-Celts",
-        "cover": "https://i.discogs.com/oOIXhlM0jFKusObDlpaPr9-n-jT3DT5t8x2TVtzPdog/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDAx/MzUtMTM3NDM4MzE3/Ni02MDg3LmpwZWc.jpeg"
+        "discogs": "https://www.discogs.com/release/300330-Enya-The-Celts",
+        "cover": "https://i.discogs.com/QSGPCgKES1KH5OTA-3sIY4H6jsmKnkc96ZbiSee2Hno/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDMz/MC0xNjA4MDQ5OTEz/LTQ1MTQucG5n.jpeg"
     },
     {
         "artist": "The Future Sound Of London",
@@ -301,7 +301,8 @@
         "title": "The Orb's Adventures Beyond The Ultraworld",
         "year": 1991,
         "discogs": "https://www.discogs.com/master/7119-The-Orb-The-Orbs-Adventures-Beyond-The-Ultraworld",
-        "cover": "https://i.discogs.com/-fvZXZz5Vx1aptVtjadlWYOHwiZ9fWYNHTkEBdXGnqI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODQy/NTgtMTY4NTM2Njky/Ny00NTk3LmpwZWc.jpeg"
+        "coverFrom": "https://www.discogs.com/release/13265-The-Orb-The-Orbs-Adventures-Beyond-The-Ultraworld",
+        "cover": "https://i.discogs.com/UNPmF2q9xW2ZmV0nThfnzUcFT80V2hgjG6mVVwOPd5U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjY1/LTE3MTczNjI0NjQt/ODgzOC5qcGVn.jpeg"
     },
     {
         "artist": "John O'Callaghan",
@@ -371,9 +372,8 @@
         "artist": "Röyksopp",
         "title": "Profound Mysteries",
         "year": 2022,
-        "discogs": "https://www.discogs.com/master/2613569-Röyksopp-Profound-Mysteries",
-        "bandcamp": "https://royksopp.bandcamp.com/album/profound-mysteries-2",
-        "cover": "https://i.discogs.com/mDIkqe-rgaw0xwUMcwNkS6_aVxs3bqeiQr8Rob5JdLc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDUy/MTI1LTE2NTEyMzMy/MzYtNzY5NC5qcGVn.jpeg"
+        "discogs": "https://www.discogs.com/master/2872147-Röyksopp-Profound-Mysteries",
+        "cover": "https://i.discogs.com/M1fnKNcZfrC00xiRJW27uT48nmBQEQcHU7tYkT32Zb0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MjAz/NTAyLTE2Njg3NzUx/NDMtNDYwMi5qcGVn.jpeg"
     },
     {
         "artist": "Sasha",
@@ -401,7 +401,8 @@
         "title": "Illuminate",
         "year": 2023,
         "discogs": "https://www.discogs.com/master/3010229-Schiller-Illuminate",
-        "cover": "https://i.discogs.com/hiONp7A6Avd2FHfOfqnnltNu3pty1gdgNcd6v2Hba_A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mzgw/MzYxLTE2Nzg1Njcz/NjUtMTI1Ni5qcGVn.jpeg"
+        "coverFrom": "https://www.discogs.com/release/26347679-Schiller-Illuminate",
+        "cover": "https://i.discogs.com/9EiHiv3Y1-KAe1bgkof3S4sMgLBukwaVDHZdtksJHGE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzQ3/Njc5LTE2Nzg0MDM5/MjMtNTg5Ni5qcGVn.jpeg"
     },
     {
         "artist": "Schiller",
@@ -417,14 +418,6 @@
         "discogs": "https://www.discogs.com/master/7822-Shpongle-Tales-Of-The-Inexpressible",
         "bandcamp": "https://shponglemusic.bandcamp.com/album/tales-of-the-inexpressible-remastered",
         "cover": "https://i.discogs.com/w4IWBDxMFSL7YyMb52a7vWv8rY3LrtPgYjhI6KuY2c4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MDc2/LTEzMTE4NTc2OTMu/anBlZw.jpeg"
-    },
-    {
-        "artist": "Sigur Rós",
-        "title": "Takk...",
-        "year": 2005,
-        "discogs": "https://www.discogs.com/master/9658-Sigur-Rós-Takk",
-        "bandcamp": "https://sigurros.bandcamp.com/album/takk",
-        "cover": "https://i.discogs.com/9-v4pokVYJcnTakgANAYcf7iNFKW1GEq2DAM4QZNZGw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyMDEx/Ni0xMzU1ODAwMTkx/LTY0OTguanBlZw.jpeg"
     },
     {
         "artist": "Slowdive",
@@ -729,5 +722,13 @@
         "year": 2018,
         "discogs": "https://www.discogs.com/master/1506675-Alexis-Ffrench-Evolution",
         "cover": "https://i.discogs.com/iWkYHoBS60v1faCKBrbfTdqmzaMjwG5dEBTaNdyOE7M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDk2/MTE0LTE1NDc5OTA5/NjYtMTIwNC5qcGVn.jpeg"
+    },
+    {
+        "artist": "Craig Connelly & Factor B",
+        "title": "Subculture",
+        "year": 2019,
+        "discogs": "https://www.discogs.com/release/13820255-Craig-Connelly-Factor-B-Subculture",
+        "bandcamp": "https://craigconnelly.bandcamp.com/album/subculture",
+        "cover": "https://i.discogs.com/ZT7YCQgCwFTa-GNXw9CimlmboFqpyc5HcMBDlIvzXts/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODIw/MjU1LTE1NjE4NDQw/MzEtMTQ3NC5qcGVn.jpeg"
     }
 ]
