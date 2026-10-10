@@ -166,7 +166,8 @@ a:active {
     box-shadow: none;
 }
 
-/* HUD boot-up: stagger nav contents in on load. */
+/* HUD boot-up: stagger nav contents in on load. The title is left out
+   so it stays visible while it morphs between pages. */
 @keyframes boot-in {
     from {
         opacity: 0;
@@ -174,14 +175,13 @@ a:active {
     }
 }
 
-nav > *,
-main > *,
+nav > :not(h1),
+main > :not(h1),
 li {
     animation: boot-in 0.5s both;
 }
 
 .meta { animation-delay: 0s; }
-h1    { animation-delay: 0.06s; }
 h2    { animation-delay: 0.12s; }
 li:nth-child(1) { animation-delay: 0.16s; }
 li:nth-child(2) { animation-delay: 0.20s; }
